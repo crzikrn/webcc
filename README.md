@@ -60,9 +60,9 @@ We are going to watch a video from 1968 called the "Mother of All Demos" if you 
 A resources section when you get lost and only want the links.
 
 ## Code Editors
-[Atom](https://atom.io/)
-[Brackets](http://brackets.io/)
-[Sublime](https://www.sublimetext.com)
+- [Atom](https://atom.io/)
+- [Brackets](http://brackets.io/)
+- [Sublime](https://www.sublimetext.com)
 
 ## p5.js Web Editor
 [p5 Web Editor](https://alpha.editor.p5js.org/)
