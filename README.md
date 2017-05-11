@@ -57,4 +57,15 @@ Seldom I like to just drift in my thoughts, and that's what we'll do. Think. Any
 We are going to watch a video from 1968 called the "Mother of All Demos" if you want to go check it out beforehand be my guest! [MOTHER OF ALL DEMOS LINK](https://www.youtube.com/watch?v=yJDv-zdhzMY)
 
 # Resources
-## Coming Soon
+A resources section when you get lost and only want the links.
+
+## Code Editors
+[Atom](https://atom.io/)
+[Brackets](http://brackets.io/)
+[Sublime](https://www.sublimetext.com)
+
+## p5.js Web Editor
+[p5 Web Editor](https://alpha.editor.p5js.org/)
+
+## Codepen.io p5.js empty example template
+Go to this link and you are set. [Link to Empty Example](https://codepen.io/byunk/pen/VbXEEJ)
