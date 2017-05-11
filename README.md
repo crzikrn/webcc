@@ -1,17 +1,44 @@
 # Learning Web Design & Development through Creative Coding - Beginner's Course
--
-Hello, and welcome to *learning web designing & development through creative coding*. This course is an introduction to web designing taught by a designer. This is NOT a course for DOM handling, but a beginner's course on Web Design by first embedding the concept of computer languages by creative coding. It's a mouthful right?
+
+Hello, and welcome to *learning web designing through creative coding*. This course is an introduction to web designing taught in designer perspective. This is NOT a course for DOM handling, but a beginner's course on Web Design. I focus on embedding the concept of computer languages simply doing. Doing in creative coding. Sounds counter-intuitive right?
 
 ## Reasons for developing this course
--
-Many times beginners are pushed away from learning web designing for the heavy emphasis in learning HTML & CSS without really understanding anything about communications with a computer. There is no introduction to conceptual framework. The format of teaching computer languages of any complexity is largely focused in memorizing syntax. No wonder many people are turned off. It's boring and there is no sense of purpose.
 
-When you learn a new language like French, you learn it because perhaps you want to go to France. You don't go to a computer country, so the purpose of learning web should be clear. Second, it's easier to grasp a language when you have context, like a dialogue, saying hello, asking names, asking where the bathroom is. These are complete phrasess
+Many times beginners are pushed away from learning web designing for the heavy emphasis in learning HTML & CSS. There is no concrete plausibility in learning the basics first for better understanding web designing. You really start without understanding anything about communications with a computer. There is no *fun* introduction to the conceptual framework of web design. I mean, considering HTML to be a sort of a computer communications tool, most format of teaching communications with computers of any complexity is largely focused in memorizing syntax. No wonder many people are turned off. It's boring and there is no sense of purpose.
 
+So for this class we will simply jump into making things. If you aren't going to understand it anyway, why don't you have fun while at it?
 
-I wanted to move away from the traditional teaching method of programming. Instead of going through the basic essentials and the bare bones building blocks of programming, I wanted to start with a hands on approach like when a kid learns to draw by just giving them crayon and paper.
--
+I wanted to move away from the traditional teaching method of web development. Instead of going through the basic essentials and the bare bones building blocks of HTML & CSS, I wanted to start with a hands on approach like when a kid learns to color by just giving them a crayon and a coloring book. And so we start with creative coding, to learn web.
+
 ## What is required
 
+Just be you. I'll make the coloring book you just *crayon*. Don't fret it. We will learn by asking questions and simply wanting to do more. Essential be ready to ask questions and wanting to take the next step. All the answers are prepared.
+
 ## What you can expect
-We will start with processing for javascript and 
+Hopefully, I get you to understand what it means to communicate with a computer first. Since this is originally an offline class, I'll be present in the classroom to guide the understanding of computer communications. If you want to be technical, we will use already made templates (coloring book) on **codepen.io** and start going wild. Afterwards, I'll do the traditional way of teaching the basics of web designing (the 90s way!)
+
+# Projects
+
+There is basically 3 projects for the first section.
+- Creating your own brush stroke
+- Making a brush pattern
+- Making a brush algorithm
+
+What does all this mean? We're learning to make our own brushes; we will draw with our brush; and finally we will make the computer draw with our brush. Simple as that.
+
+# Template Links
+## Web Editor for p5.js
+Best would be to just go HERE! (https://alpha.editor.p5js.org/) And Do our projects here :) It's in alpha version so beware! 
+
+## Codepen.io
+If you want to save what you did, you can either make an account at https://codepen.io and fork the empty template for a p5.js, I'll explain everything in class so don't freak out!
+
+## Code Editor
+And if you are adventurous enough we can learn the ways to do it on our computers with a code editor. I'll go around and do a 1:1 tutorial for this. However, be ready to already have a code editor. Atom[https://atom.io/], Brackets[http://brackets.io/], Sublime[https://www.sublimetext.com/], to name a few.
+
+## Class 01
+
+## Class 02
+
+# Resources
+## Coming Soon
