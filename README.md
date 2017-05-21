@@ -42,7 +42,54 @@ And if you are adventurous enough we can learn the ways to do it on our computer
 No matter where you go, there will be always Homework. Oh, the dread! It's the best way to learn though.
 
 ## Class 01 - Learning what Coding is... then make a Paint App.
-What!? We just learned what "coding" meant, how can we make an app right away? Well, just listen carefully to what I have to say. There's no need to scare off beginners, at all means we have to invite with open arms. It *IS* super easy to make a functional app, it just ain't perfected yet. So yeah, within 10 minutes of your first lecture you have your own paint app, how amazing is that?
+What!? We just learned what "coding" meant, how can we make an app right away? Well, just listen carefully to what I have to say. There's no need to scare off beginners, at all means we have to invite them with open arms. It *IS* super easy to make a functional app, it just ain't perfected yet. So yeah, within 10 minutes of your first lecture you have your own paint app, how amazing is that?
+
+Let's use an *Empty Example* File from codepen.io; Fork it!
+- [Empty p5js Example](https://codepen.io/byunk/pen/oWdWNq)
+
+We'll start writing our code inside the :
+```javascript
+function draw(){
+  //We'll write here!
+}
+```
+The first line will be drawing a cricle for a circular brush stroke.
+
+`ellipse(250,250,50,50);`
+
+Ok. Great. Ta-Tan! We can now draw a circle. The first two numbers are the location coordinates for the circle. It simply means to draw at (250,250) in a coordinate system. Where the first number is the x-axis and the second number the y-axis. In a computer screen, the top left corner is the origin (0,0). The x-axis number increases as it goes to the right and for the y-axis the number increases as it goes the bottom. Weird.
+
+So (300,0) is a point at the top that is located more to the right side than that of a point at (50,0);
+And (0,300) is a point at the left that is at a lower position than a point at (0,100);
+
+No matter reading these instructions, try it! Change the first two numbers and see the position of the circle change.
+
+`ellipse(300,0,50,50);`
+
+`ellipse(50,0,50,50);`
+
+`ellipse(0,300,50,50);`
+
+`ellipse(0,100,50,50);`
+
+Now what if I told you, we can make a drawing app just by changing two numbers in the two other words!? Write this :
+
+`ellipse(mouseX,mouseY,50,50);`
+
+Notice the CAPS for 'X' and 'Y'. You have to write it exactly as it is. Here's a link to a codepen.io example just incase you weren't able to manage it! Look at the difference of code, not much right?
+
+- [Example of Minimal Basic Drawing app using p5](https://codepen.io/byunk/pen/oWdWNq)
+
+This actually concludes the class. This is it! You have your own drawing app. It's missing a few details, but it is a functional application. Amazing right? Coding isn't difficult, people make it to be, but it's easy as 123. Now try to use other shapes like : `rect(mouseX,mouseY,100,10)` and `triangle(0,0,mouseX,mouseY,500,0)`. Or add more than one shape like so:
+
+```javascript
+function draw(){
+  rect(mouseX, mouseY,100,10);
+  ellipse(mouseX,mouseY,20,50);
+}
+```
+
+- [Example of Painting App with a Custom Brushstroke](https://codepen.io/byunk/pen/KmRpdV)
 
 ## Class 02 - We can digitally paint, now what? Let's be Media Artists!
 Digital tools are awesome because... well we create awesomeness with minimalism. It's like magic. Computer magic. What shamanism is this!? I expect our class to be media artists by the end of class :)
