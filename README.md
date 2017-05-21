@@ -89,7 +89,7 @@ function draw(){
 }
 ```
 
-Below is an example of what you can do. I cheated a bit with the colors, but the basic principle is true. 
+Below is an example of what you can do. I cheated a bit with the colors and interaction, but the basic principle is the one line we wrote above. People can teach you the techniques, but details and creativity must be managed by you!
 
 - [Example of Painting App with a Custom Brushstroke](https://codepen.io/byunk/pen/KmRpdV)
 
