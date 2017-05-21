@@ -89,7 +89,11 @@ function draw(){
 }
 ```
 
+Below is an example of what you can do. I cheated a bit with the colors, but the basic principle is true. 
+
 - [Example of Painting App with a Custom Brushstroke](https://codepen.io/byunk/pen/KmRpdV)
+
+Hope you remember the other material I spoke in class. You can change the color of the shapes, the strokes, its weight, you can add transparencies, and also remember that the background can change colors and size! These are notes from the class itself so any other questions come to class and ask away!
 
 ## Class 02 - We can digitally paint, now what? Let's be Media Artists!
 Digital tools are awesome because... well we create awesomeness with minimalism. It's like magic. Computer magic. What shamanism is this!? I expect our class to be media artists by the end of class :)
