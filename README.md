@@ -103,11 +103,19 @@ Let's explore what we can do with what we learned the previous class. If you rem
 Let us go back to the simple minimal example :
 - [Example of Minimal Basic Drawing app using p5](https://codepen.io/byunk/pen/oWdWNq)
 
-I like a nice black paint brush it reminds me of eastern calligraphy. Let's add a fill to the circle by typing this line :
+I like a nice black paint brush, it reminds me of eastern calligraphy. Let's add a fill to the circle by typing this line :
 
 `fill(0);`
 
 `fill(numberVariable);` is a command that takes in a number variable. A number between 0-255, we'll see this is a recurring theme. Usually in digital brightness or digital colors, 0 represents black and 255 represents white. 0 represents having no light where 255 represents the most light. That is why the fill is black for 0 and white for 255.
+
+Now, we are painting in black. Great! One of the properties of eastern calligraphy that I like comes from the ink dispersing if you stay at one location too long. How can we simulate this? We can add an alpha channel, or a transparency to the fill. We can do this by adding a number after the first number.
+
+`fill(0,50);`
+
+This is for a black color with an opacity of around 20%. Try it out and see, or visit the link below. If you don't like the stroke around the circle input this code: `noStroke()` in the `function setup()`.
+
+- [Example of Minimal Basic Drawing app with Transparency](https://codepen.io/byunk/pen/dWwJXK)
 
 ## Class 03 - Humans drawing is old news, let's make the computer do our work.
 Have you ever wondered why we made computers? Sometimes, I think we made them just to slack off. So let's be media artists that make the computer do the work! Now we are creative technology artists, we sure are growing fast.
