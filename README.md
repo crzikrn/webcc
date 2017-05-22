@@ -36,7 +36,7 @@ Best would be to just go HERE! (https://alpha.editor.p5js.org/) And Do our proje
 If you want to save what you did, you can either make an account at https://codepen.io and fork the empty template for a p5.js, I'll explain everything in class so don't freak out!
 
 ## Code Editor
-And if you are adventurous enough we can learn the ways to do it on our computers with a code editor. I'll go around and do a 1:1 tutorial for this. However, be ready to already have a code editor. Atom[https://atom.io/], Brackets[http://brackets.io/], Sublime[https://www.sublimetext.com/], to name a few.
+And if you are adventurous enough we can learn the ways to do it on our computers with a code editor. I'll go around and do a 1:1 tutorial for this. However, be ready to already have a code editor. [Atom](https://atom.io/), [Brackets](http://brackets.io/), [Sublime](https://www.sublimetext.com/), to name a few.
 
 # Class Excercies
 No matter where you go, there will be always Homework. Oh, the dread! It's the best way to learn though.
@@ -97,6 +97,17 @@ Hope you remember the other material I spoke in class. You can change the color 
 
 ## Class 02 - We can digitally paint, now what? Let's be Media Artists!
 Digital tools are awesome because... well we create awesomeness with minimalism. It's like magic. Computer magic. What shamanism is this!? I expect our class to be media artists by the end of class :)
+
+Let's explore what we can do with what we learned the previous class. If you remember, we made a paint app with one simple line of code. We didn't explore too much into coloring or adding shapes to our brush, we just let the default shape of a circle be our brush. I felt bad about showing you an example by cheating, but it's for challenging you to see what can be done. I simply added layers of colors and more shapes to a basic functional painting app. Creativity and experimentation is the true essence of creating an awesome product and this class will be exactly about that!
+
+Let us go back to the simple minimal example :
+- [Example of Minimal Basic Drawing app using p5](https://codepen.io/byunk/pen/oWdWNq)
+
+I like a nice black paint brush it reminds me of eastern calligraphy. Let's add a fill to the circle by typing this line :
+
+`fill(0);`
+
+`fill(numberVariable);` is a command that takes in a number variable. A number between 0-255, we'll see this is a recurring theme. Usually in digital brightness or digital colors, 0 represents black and 255 represents white. 0 represents having no light where 255 represents the most light. That is why the fill is black for 0 and white for 255.
 
 ## Class 03 - Humans drawing is old news, let's make the computer do our work.
 Have you ever wondered why we made computers? Sometimes, I think we made them just to slack off. So let's be media artists that make the computer do the work! Now we are creative technology artists, we sure are growing fast.
