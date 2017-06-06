@@ -103,11 +103,11 @@ Let's explore what we can do with what we learned the previous class. If you rem
 Let us go back to the simple minimal example :
 - [Example of Minimal Basic Drawing app using p5](https://codepen.io/byunk/pen/oWdWNq)
 
-I like a nice black paint brush, it reminds me of eastern calligraphy. Let's add a fill to the circle by typing this line :
+I like a nice black paint brush, it reminds me of eastern calligraphy. Let's add a black color fill to the circle by typing this line :
 
 `fill(0);`
 
-`fill(numberVariable);` is a command that takes in a number variable. A number between 0-255, we'll see this is a recurring theme. Usually in digital brightness or digital colors, 0 represents black and 255 represents white. 0 represents having no light where 255 represents the most light. That is why the fill is black for 0 and white for 255.
+`fill(numberVariable);` is a command that takes in a number variable. A number between 0 to 255, we'll see this is a recurring theme. Usually in digital screens brightness or digital colors are simulated with numbers. 0 represents black and 255 represents white. 0 represents having no light where 255 represents the most light. That is why the fill is black for 0 and white for 255.
 
 Now, we are painting in black. Great! One of the properties of eastern calligraphy that I like comes from the ink dispersing if you stay at one location too long. How can we simulate this? We can add an alpha channel, or a transparency to the fill. We can do this by adding a number after the first number.
 
@@ -117,11 +117,52 @@ This is for a black color with an opacity of around 20%. Try it out and see, or 
 
 - [Example of Minimal Basic Drawing app with Transparency](https://codepen.io/byunk/pen/dWwJXK)
 
+Let's have more dynamic inputs like color! How is color represented? For this we need to use 3 numbers. Remember `fill(numberVariable)` takes in 1 number variable between 0 to 255 for brightness OR `fill(numberVariable, anotherNumberVairable)` can take 2 number variables for brightness and trasparency? Now for color it takes 3 number variables: `fill(firstNumber, secondNumber, thirdNumber)` between 0 to 255. Computers simulate color through what we call an RGB mode. RGB stands for red, green and blue. We make color by mixing these basic color components, like the real world. If we want red we write `fill(255,0,0);`, if we want yellow we write `fill(255,255,0)` and so on and so on. Try it!
+
+[Insert Future codepen.io example]
+
+We have been using a lot of numbers in our examples. Writing out each number again and again. It's pretty tedious, if only we can replace it with a simple symbol. We can! Remember `mouseX` and `mouseY`? These are variables. Memory boxes we create in our virtual space to store data. Unlike other static variables `mouseX` was dynamic, meaning it changed and updated itself by figuring out where the mouse's X axis was! We can store static or dynamic data within variables! This concept of memory is essential to programming.
+
+Let's write the following code:
+
+```
+var r = 0;
+var g = 100;
+var b = 200;
+
+function setup(){
+  createCanvas(500,500);
+  
+}
+
+function draw(){
+  fill(r,g,b);
+  rect(mouseX, mouseY,100,10);
+}
+```
+
+We declare variables, on the top of our code before using them. By declaring a statement once, we can easily use them over and over again throughout our code. However, having one number in a variable is redundant. I mean what's the point? Why can't we just type in numbers? You can lol. The value of variables comes when we want a dynamic variable, meaning data that changes over time. This is where things become super interesting.
+
+Let us write an equation in the draw function at the end : `r = r + 1;`
+
+
+
+
+
 ## Class 03 - Humans drawing is old news, let's make the computer do our work.
 Have you ever wondered why we made computers? Sometimes, I think we made them just to slack off. So let's be media artists that make the computer do the work! Now we are creative technology artists, we sure are growing fast.
 
+Drawing layouts with p5.js
+
+
 ## Class 04 - Now a bit of seriousness. Finally, we get to use our thinking!
 Seldom I like to just drift in my thoughts, and that's what we'll do. Think. Anyways, our creative coding class is coming to an end :(, and I will start explaining the connections of computer communcations and web designing. A bit of history and my personal thoughts on why we humans go nuts for making webpages.
+
+Before anything we need to know what HTML and CSS is. A bit of history, a bit of abstract conceptual explaining, and a bit of practicality will do the trick. It will feel like a breeze, but that is all you need to understand the basic components of web designing & development. We need to catch up to the people who are directing the web space.
+
+HTML & CSS
+
+
 
 ## Class 05 - Goodbye Coding and Hello Web Design.
 We are going to watch a video from 1968 called the "Mother of All Demos" if you want to go check it out beforehand be my guest! [MOTHER OF ALL DEMOS LINK](https://www.youtube.com/watch?v=yJDv-zdhzMY)
