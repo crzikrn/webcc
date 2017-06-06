@@ -125,7 +125,7 @@ We have been using a lot of numbers in our examples. Writing out each number aga
 
 Let's write the following code:
 
-```
+```javascript
 var r = 0;
 var g = 100;
 var b = 200;
@@ -143,17 +143,21 @@ function draw(){
 
 We declare variables, on the top of our code before using them. By declaring a statement once, we can easily use them over and over again throughout our code. However, having one number in a variable is redundant. I mean what's the point? Why can't we just type in numbers? You can lol. The value of variables comes when we want a dynamic variable, meaning data that changes over time. This is where things become super interesting.
 
-Let us write an equation in the draw function at the end : `r = r + 1;`
+Let us write an equation in the draw function at the end : `r = r + 1;` Move your mouse and see the box changing its color. Here's an example.
+
+- [Sample example for color changing]
+
+Wow, a bit of change. What's happening? Magic, that's what. This is where all the years of algebra comes to your rescue during your school years. Finally it all makes sense! 
+
+Variables can be manipulated with equations, meaning the computer can now update itself as long as we give it the right algorithm, a fancy word for equation. We are adding 1 to the red value and this is the reason why the rectangle following our mouse turns pink in the first few seconds of our running program.
 
 
+## Class 03 - ~~Humans drawing is old news, let's make the computer do our work~~ OR not, let's go back to web design.
+~~Have you ever wondered why we made computers? Sometimes, I think we made them just to slack off. So let's be media artists that make the computer do the work! Now we are creative technology artists, we sure are growing fast.~~
 
+This is web design and development, I think the first two parts have given each of you the understanding of communicating with a computer. You need to be specific, by giving commands it knows with numbers and equations. Commands like `ellipse(0,0,10,10)` or `fill(0,255,200);` to let the computer know what we want and where. Commands are also called functions and they are defined by equations. A computer language is a language developed by us humans to make communication easier with the computer. If not, all of us would need to be experts at binary algebra and need a few thousands years of life. So that's all I wanted you to learned from the first two classes: computer communications requires you need learn the languages to command what you want; and that communication method is super detailed.
 
-
-## Class 03 - Humans drawing is old news, let's make the computer do our work.
-Have you ever wondered why we made computers? Sometimes, I think we made them just to slack off. So let's be media artists that make the computer do the work! Now we are creative technology artists, we sure are growing fast.
-
-Drawing layouts with p5.js
-
+Since the web is essentially made up of rectangles, colors and text. We'll cover one more command in p5.js and start thinking about web designing and development.
 
 ## Class 04 - Now a bit of seriousness. Finally, we get to use our thinking!
 Seldom I like to just drift in my thoughts, and that's what we'll do. Think. Anyways, our creative coding class is coming to an end :(, and I will start explaining the connections of computer communcations and web designing. A bit of history and my personal thoughts on why we humans go nuts for making webpages.
